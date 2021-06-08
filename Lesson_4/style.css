@@ -1,0 +1,16 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 400px;
+}
+
+.btn {
+    width: 100px;
+}
+
+.error {
+    background:red
+}
