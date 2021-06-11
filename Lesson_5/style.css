@@ -116,12 +116,8 @@ body {
     gap: 15px;
 }
 
-.inBasket {
+.invisible{
   display: none;
-}
-
-.productPage {
-  display: flex;
 }
 
 .delItem {

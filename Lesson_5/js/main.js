@@ -133,7 +133,9 @@ const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-a
       imgCatalog: 'images/no_photo.png',
       searchLine: '',
       goodsInBasket: [],
-      counter: 0,
+      counter: 2,
+      isVisibleCart: false,
+      isVisible: true,
     },
 
     methods: {
@@ -143,17 +145,6 @@ const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-a
             .catch(error => {
               console.log(error);
             });
-      },
-      isVisibleCart() {
-        let inBasket = document.querySelector('.inBasket');
-        let productPage = document.querySelector('.productPage');
-        if (inBasket.style.display === 'flex') {
-          inBasket.style.display = 'none';
-          productPage.style.display = 'flex';
-        } else {
-          inBasket.style.display = 'flex';
-          productPage.style.display = 'none';
-        }
       },
   
       addToBasket(item) {
