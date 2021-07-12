@@ -40,7 +40,22 @@ Vue.component('products', {
                                     <p class="goods__box-orderbox-price">
                                         $ {{item.price}}
                                     </p>
-                                    <img src="images/reviews.png" class="goods__box-orderbox-rating">
+
+                                    <div class="rating-area">
+                                        <input type="radio" id="star-5" name="rating" value="5">
+                                        <label for="star-5" title="Оценка «5»"></label>	
+                                        <input type="radio" id="star-4" name="rating" value="4">
+                                        <label for="star-4" title="Оценка «4»"></label>    
+                                        <input type="radio" id="star-3" name="rating" value="3">
+                                        <label for="star-3" title="Оценка «3»"></label>  
+                                        <input type="radio" id="star-2" name="rating" value="2">
+                                        <label for="star-2" title="Оценка «2»"></label>    
+                                        <input type="radio" id="star-1" name="rating" value="1" >
+                                        <label for="star-1" title="Оценка «1»"></label>
+                                    </div>
+
+                                    <p class="rating-area__current">5k</p>
+
                                 </div>
                             </div>
                             <button class="goods__box-orderbox-addgood" @click="$root.$refs.cart.addProduct(item)">
@@ -51,3 +66,5 @@ Vue.component('products', {
                 </div>
     `
 });
+
+// <img src="images/reviews.png" class="goods__box-orderbox-rating">

@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: Noto Serif;
+    font-family: "Noto", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -69,6 +69,15 @@
     border: none;
     width: 20px;
     height: 20px;
+  }
+
+  .userSearch {
+      font-size: 18px;
+      color: #FF715B;
+  }
+
+  .userSearch::placeholder {
+      font-size: 18px;
   }
 
   .header__icons-search input {
@@ -157,17 +166,16 @@
   }
 
   .banner__section-banner-tours-wrapper{
-      width: 1185px;
-      height: 154px;
-      display: flex;
-      position: absolute;
-      left: 497px;
-      bottom: 0;
-      background-color: #fff;
-      align-items: center;
-      display: flex;
-      justify-content: space-around;
-      box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+    width: 1185px;
+    height: 154px;
+    position: absolute;
+    left: 497px;
+    bottom: 0;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
   }
 
   .banner__section-banner-tours-destination, .banner__section-banner-tours-date, .banner__section-banner-tours-price {
@@ -177,54 +185,39 @@
   }
 
   .banner__section-banner-tours-button {
-      width: 195px;
-      height: 64px;
-      background: #FF715B;
+    width: 195px;
+    height: 64px;
+    background: #FF715B;
     cursor: pointer;
     outline: none;
     color: #fff;
     border: none;
     font-weight: 500;
-font-size: 18px;
-line-height: 25px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
-  .banner__section-banner-tours-destination p {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #A79997;
-    margin-bottom: 10px;
-  }
-
-  .banner__section-banner-tours-date p {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #A79997;
-    margin-bottom: 10px;
-  }
-
+  .banner__section-banner-tours-destination p,
+  .banner__section-banner-tours-date p,
   .banner__section-banner-tours-price p {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #A79997;
     margin-bottom: 10px;
   }
 
-  .banner__section-banner-tours-destination label {
+  .banner__section-banner-tours-destination select {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #FF715B;
-    margin-right: 127px;
+    width: 234px;
+    outline: none;
+    border: none;
+
+    appearance: none;
+    background: url(/images/downArrow.png) no-repeat right;
+    background-position-x: calc(100% - 2px);
   }
 
   .banner__section-banner-tours-date label {
@@ -233,6 +226,20 @@ line-height: 25px;
     line-height: 25px;
     color: #FF715B;
     margin-right: 120px;
+  }
+
+  .tourDate {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FF715B;
+    width: 234px;
+    outline: none;
+    border: none; 
+  }
+
+  .tourDate::-webkit-calendar-picker-indicator {
+    background: url(/images/calender.png) no-repeat right;
   }
 
   .banner__section-banner-tours-price label {
@@ -277,8 +284,6 @@ line-height: 25px;
 }
 
 h3 {
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
@@ -292,9 +297,6 @@ h3 {
 .tour-information__box2 p,
 .tour-information__box3 p,
 .tour-information__box4 p {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     text-align: center;
@@ -341,7 +343,6 @@ h3 {
 }
 
 .countries-information p {
-    font-family: Product Sans;
     font-size: 18px;
     line-height: 26px;
     color: #A79997;
@@ -443,8 +444,6 @@ h3 {
 
 .offers__information-title {
     width: 690px;
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 65px;
@@ -462,8 +461,6 @@ h3 {
 .offers__information-block1 h2,
 .offers__information-block2 h2,
 .offers__information-block3 h2 {
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
@@ -476,9 +473,6 @@ h3 {
 .offers__information-block2 p,
 .offers__information-block3 p {
     max-width: 600px;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #A79997;
@@ -524,8 +518,6 @@ h3 {
 }
 
 .goods__title {
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 65px;
@@ -584,12 +576,11 @@ h3 {
 }
 
 .goods__box-orderbox-price {
-    font-family: Product Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #FF715B;
+    padding-right: 10px;
 }
 
 .goods__box-orderbox-addgood {
@@ -600,7 +591,6 @@ h3 {
     cursor: pointer;
     background: #FF715B;
     color: #fff;
-    font-family: Product Sans;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
@@ -608,8 +598,6 @@ h3 {
 }
 
 .allGoods {
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -634,12 +622,9 @@ h3 {
     text-align: center;
     width: 650px;
     height: 116px;
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 65px;
-    text-align: center;
     margin: 0 auto 100px;
 }
 
@@ -724,9 +709,6 @@ h3 {
 
 .testimonials__center-description {
     width: 570px;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
@@ -748,8 +730,6 @@ h3 {
 }
 
 .testimonials__center-title {
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
@@ -757,8 +737,6 @@ h3 {
 }
 
 .testimonials__center-proffesion {
-    font-family: Product Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
@@ -799,8 +777,6 @@ h3 {
 .community__title {
     width: 600px;
     height: 116px;
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 65px;
@@ -859,9 +835,6 @@ h3 {
 }
 
 .contact__text {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #A79997;
@@ -872,9 +845,6 @@ h3 {
 .contact__adresses {
     display: flex;
     flex-direction: column;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #A79997;
@@ -909,8 +879,6 @@ h3 {
 }
 
 .contact__block2-title {
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 26px;
@@ -918,9 +886,6 @@ h3 {
 }
 
 .contact__block2 ul li a {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 42px;
     color: #A79997;
@@ -954,6 +919,11 @@ h3 {
     background: #F8F8F8;
     border: 1px solid #F5EBE9;
     outline: none;
+    font-size: 20px;
+}
+
+.subscribe__form::placeholder {
+    font-size: 20px;
 }
 
 .subscribe__form button {
@@ -965,8 +935,6 @@ h3 {
     cursor: pointer;
     color: #fff;
     margin-top: 15px;
-    font-family: Noto Serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -981,9 +949,6 @@ h3 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #A79997;
@@ -1087,4 +1052,52 @@ h3 {
     width: 100px;
     height: 100px;
     align-items: center;
+}
+
+/* Звёзднвй рейтинг */
+
+.rating-area {
+	width: 110px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 15px;
+	padding: 0 10px;
+	cursor: pointer;
+	font-size: 22px;
+	line-height: 30px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.rating-area__current {
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A79997;
 }

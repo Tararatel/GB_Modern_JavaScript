@@ -74,13 +74,21 @@
                         <div class="banner__section-banner-tours-wrapper">
                             <div class="banner__section-banner-tours-destination">
                                 <p>Destinations</p>
-                                <label for="country">Arab Egypt</label>
-                                <input for="country" type="checkbox">
+                                <!-- <label for="country">Arab Egypt</label> -->
+                                <select name="Destination" id="destination__checked">
+                                    <option>Arab Egypt</option>
+                                    <option>Moscow</option>
+                                    <option>Santorini</option>
+                                    <option>Tokio</option>
+                                    <option>Madrid</option>
+                                    <option>Paris</option>
+                                </select>
                             </div>
                             <div class="banner__section-banner-tours-date">
                                 <p>Check In</p>
-                                <label for="date">01 Feb, 2021</label>
-                                <i class="far fa-calendar-alt"></i>
+                                <!-- <label for="date">01 Feb, 2021</label>
+                                <i class="far fa-calendar-alt"></i> -->
+                                <input class="tourDate" type="date" value="2021-02-01">
                             </div>
                             <div class="banner__section-banner-tours-price">
                                 <p>Price Range</p>
@@ -343,7 +351,7 @@
                             Newsletter
                         </h1>
                         <form class="subscribe__form" action="#">
-                            <input type="text">
+                            <input type="text" placeholder="domain@mail.com">
                             <button type="submit">Subscribe Now</button>
                         </form>
                     </div>
