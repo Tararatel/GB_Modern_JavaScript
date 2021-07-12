@@ -22,6 +22,7 @@ Vue.component('products', {
         filter(searcher){
             let regexp = new RegExp(searcher, 'i');
             this.filtered = this.products.filter(el => regexp.test(el.title));
+            this.$parent.$refs.search.userSearch = '';
         }
     },
 
