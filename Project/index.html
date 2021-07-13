@@ -45,8 +45,6 @@
             </div>
         </header>
 
-
-
         <section class="banner__section">
             <div class="container">
                 <div class="banner__section-banner">
@@ -74,8 +72,7 @@
                         <div class="banner__section-banner-tours-wrapper">
                             <div class="banner__section-banner-tours-destination">
                                 <p>Destinations</p>
-                                <!-- <label for="country">Arab Egypt</label> -->
-                                <select name="Destination" id="destination__checked">
+                                <select name="Destination">
                                     <option>Arab Egypt</option>
                                     <option>Moscow</option>
                                     <option>Santorini</option>
@@ -86,14 +83,18 @@
                             </div>
                             <div class="banner__section-banner-tours-date">
                                 <p>Check In</p>
-                                <!-- <label for="date">01 Feb, 2021</label>
-                                <i class="far fa-calendar-alt"></i> -->
                                 <input class="tourDate" type="date" value="2021-02-01">
                             </div>
                             <div class="banner__section-banner-tours-price">
                                 <p>Price Range</p>
-                                <label for="price">$500 - $10,0000</label>
-                                <i class="fas fa-dollar-sign"></i>
+                                <select name="PriceRange">
+                                    <option>$500 - $10,0000</option>
+                                    <option>$10,000 - $20,0000</option>
+                                    <option>$20,000 - $30,0000</option>
+                                    <option>$30,000 - $40,0000</option>
+                                    <option>$40,000 - $50,0000</option>
+                                    <option>$50,000 - $60,0000</option>
+                                </select>
                             </div>
                             <button class="banner__section-banner-tours-button">
                                 Discover Now
@@ -104,7 +105,7 @@
             </div>
         </section>
 
-        <section class="tour-information">
+        <section class="tour-information element-animation">
             <div class="container">
                 <div class="tour-information__wrapper">
                     <div class="tour-information__box1">
@@ -131,7 +132,7 @@
             </div>
         </section>
 
-        <section class="countries">
+        <section class="countries element-animation">
             <div class="container">
                 <div class="countries__wrapper">
                     <div class="countries-information">
@@ -160,7 +161,7 @@
             <div class="countries__bg"></div>
         </section>
 
-        <section class="offers">
+        <section class="offers element-animation">
             <div class="container">
                 <div class="offers__wrapper">
                     <div class="offers__circle"></div>
@@ -212,7 +213,7 @@
             </div>
         </section>
 
-        <section class="goods">
+        <section class="goods element-animation">
             <div class="container">
                 <h1 class="goods__title">
                     Choose Your Destination
@@ -222,7 +223,7 @@
             <error ref="error"></error>
         </section>
 
-        <section class="testimonials">
+        <section class="testimonials element-animation">
             <div class="container">
                 <h1 class="testimonials__title">
                     What Our Happy Customers Say About Us
@@ -273,7 +274,7 @@
             </div>
         </section>
 
-        <section class="community">
+        <section class="community element-animation">
             <div class="container">
                 <div class="community__wrapper">
                     <div class="community__poster">
@@ -295,7 +296,7 @@
             </div>
         </section>
 
-        <footer>
+        <footer class="community element-animation">
             <div class="container">
                 <div class="contact__wrapper">
                     <div class="contact__block1">
@@ -364,11 +365,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <!--     <script src="js/CartComp.js"></script>
-    <script src="js/ProducComp.js"></script>
-    <script src="js/SearchComp.js"></script>
-    <script src="js/ErrorComp.js"></script>
-    <script src="js/main.js"></script> -->
 </body>
 
 </html>

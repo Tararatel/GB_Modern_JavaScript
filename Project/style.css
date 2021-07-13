@@ -4,101 +4,101 @@
     padding: 0;
   }
   
-  body {
+body {
     font-family: "Noto", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     color: #2C2C2C;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 1680px;
     margin: 0 auto;
-  }
+}
 
-  .header__wrapper {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 45px;
-      margin: 40px 0 40px 0;
-  }
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    margin: 40px 0 40px 0;
+}
 
-  .header__links {
-      width: 432px;
-  }
+.header__links {
+    width: 432px;
+}
 
-  .header__links ul {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
+.header__links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-  .header__links ul li {      
-      list-style-type: none;
-  }
+.header__links ul li {      
+    list-style-type: none;
+}
 
-  .header__links ul li a {
+.header__links ul li a {
     text-decoration: none;
     color: #2C2C2C;
     font-size: 18px;
     line-height: 25px;
-  }
+}
 
-  .header__icons {
-      width: 450px;
-      display: flex;
-      justify-content: space-between;
-  }
+.header__icons {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
 
-  .header__user-ico {
+.header__user-ico {
     cursor: pointer;
     outline: none;
     background: transparent;
     border: none;
     font-size: 18px;
     line-height: 25px;
-  }
+}
 
-  .header__icons-search button {
+.header__icons-search button {
     cursor: pointer;
     outline: none;
     background: transparent;
     border: none;
     width: 20px;
     height: 20px;
-  }
+}
 
-  .userSearch {
-      font-size: 18px;
-      color: #FF715B;
-  }
+.userSearch {
+    font-size: 18px;
+    color: #FF715B;
+}
 
-  .userSearch::placeholder {
-      font-size: 18px;
-  }
+.userSearch::placeholder {
+    font-size: 18px;
+}
 
-  .header__icons-search input {
-      border: none;
-      border-bottom: 1px solid #F5EBE9;
-      width: 200px;
-      height: 30px;
-      outline: none;
-  }
+.header__icons-search input {
+    border: none;
+    border-bottom: 1px solid #F5EBE9;
+    width: 200px;
+    height: 30px;
+    outline: none;
+}
 
-  .banner__section {
-      margin-bottom: 180px;
-  }
+.banner__section {
+    margin-bottom: 180px;
+}
 
-  .banner__section-banner {
+.banner__section-banner {
     position: relative; 
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .banner__section-banner-text {
+.banner__section-banner-text {
     position: absolute;
     font-weight: bold;
     font-size: 84px;
@@ -107,9 +107,9 @@
     margin-top: 285px;
     margin-left: 135px;
     padding: 10px;
-  }
+}
 
-  .banner__section-banner-button {
+.banner__section-banner-button {
     position: absolute;
     background: #FF715B;
     width: 200px;
@@ -124,23 +124,23 @@
     border: none;
     margin-top: 559px;
     margin-left: 135px;
-  }
+}
 
-  .banner__section-banner-paginationandtours {
-      display: flex;
-      justify-content: space-between;
-  }
+.banner__section-banner-paginationandtours {
+    display: flex;
+    justify-content: space-between;
+}
 
-  .banner__section-banner-pagination-wrapper{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 435px;
-      height: 47px;
-      margin-top: 30px;
-  }
+.banner__section-banner-pagination-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 435px;
+    height: 47px;
+    margin-top: 30px;
+}
 
-  .banner__section-banner-pagination-wrapper button {
+.banner__section-banner-pagination-wrapper button {
     width: 47px;
     height: 47px;
     background: #FF715B;
@@ -151,21 +151,21 @@
     margin-right: 20px;
     font-weight: 500;
     font-size: 24px;
-  }
+}
 
-  .banner__section-banner-pagination-line {
-      border-bottom: 2px solid #F5EBE9;
-      width: 234px;
-  }
+.banner__section-banner-pagination-line {
+    border-bottom: 2px solid #F5EBE9;
+    width: 234px;
+}
 
-  .banner__section-banner-pagination-counter p {
+.banner__section-banner-pagination-counter p {
     font-weight: 500;
     font-size: 24px;
     line-height: 33px;
     color: #FF715B;
-  }
+}
 
-  .banner__section-banner-tours-wrapper{
+.banner__section-banner-tours-wrapper{
     width: 1185px;
     height: 154px;
     position: absolute;
@@ -176,15 +176,15 @@
     display: flex;
     justify-content: space-around;
     box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
-  }
+}
 
-  .banner__section-banner-tours-destination, .banner__section-banner-tours-date, .banner__section-banner-tours-price {
-      width: 240px;
-      height: 64px;
-      border-bottom: 0.5px solid #F5EBE9;
-  }
+.banner__section-banner-tours-destination, .banner__section-banner-tours-date, .banner__section-banner-tours-price {
+    width: 240px;
+    height: 64px;
+    border-bottom: 0.5px solid #F5EBE9;
+}
 
-  .banner__section-banner-tours-button {
+.banner__section-banner-tours-button {
     width: 195px;
     height: 64px;
     background: #FF715B;
@@ -195,18 +195,18 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-  }
+}
 
-  .banner__section-banner-tours-destination p,
-  .banner__section-banner-tours-date p,
-  .banner__section-banner-tours-price p {
+.banner__section-banner-tours-destination p,
+.banner__section-banner-tours-date p,
+.banner__section-banner-tours-price p {
     font-size: 16px;
     line-height: 19px;
     color: #A79997;
     margin-bottom: 10px;
-  }
+}
 
-  .banner__section-banner-tours-destination select {
+.banner__section-banner-tours-destination select {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -218,17 +218,17 @@
     appearance: none;
     background: url(/images/downArrow.png) no-repeat right;
     background-position-x: calc(100% - 2px);
-  }
+}
 
-  .banner__section-banner-tours-date label {
+.banner__section-banner-tours-date label {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #FF715B;
     margin-right: 120px;
-  }
+}
 
-  .tourDate {
+.tourDate {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -236,29 +236,52 @@
     width: 234px;
     outline: none;
     border: none; 
-  }
+}
 
-  .tourDate::-webkit-calendar-picker-indicator {
+.tourDate::-webkit-calendar-picker-indicator {
     background: url(/images/calender.png) no-repeat right;
-  }
+}
 
-  .banner__section-banner-tours-price label {
+.banner__section-banner-tours-price label {
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     color: #FF715B;
     margin-right: 100px;
-  }
+}
 
-  .banner__section-banner-tours-destination i, .banner__section-banner-tours-date i, .banner__section-banner-tours-price i {
+.banner__section-banner-tours-price select {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
     color: #FF715B;
-  }  
+    width: 234px;
+    outline: none;
+    border: none;
 
-  .tour-information {
+    appearance: none;
+    background: url(/images/dollar.png) no-repeat right;
+    background-position-x: calc(100% - 2px);
+}
+
+.banner__section-banner-tours-destination i, .banner__section-banner-tours-date i, .banner__section-banner-tours-price i {
+    color: #FF715B;
+}  
+
+.element-animation {
+    opacity: 0;
+}
+
+.element-animation.element-show {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.tour-information {
       margin-bottom: 180px;
   }
 
-  .tour-information__wrapper {
+.tour-information__wrapper {
       display: flex;
       justify-content: center;
       align-items: center;

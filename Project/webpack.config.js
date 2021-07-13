@@ -10,6 +10,7 @@ module.exports = {
     output: {
         filename: 'main.[contenthash].js'
     },
+    mode: 'development',
     module: {
         rules: [
             {
