@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous">
+    <title>Ravel Travel</title>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                    <div class="header__links">
+                        <ul>
+                            <li><a href="#">Destination</a></li>
+                            <li><a href="#">Offer</a></li>
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__icons">
+                        <div class="header__icons-account">
+                            <button class="header__user-ico">
+                                <i class="far fa-user"></i>
+                                My Account
+                            </button>
+                        </div>
+                        <div class="header__icons-account">
+                            <cart ref="cart"></cart>
+                        </div>
+                        <div class="header__icons-separate">|</div>
+                        <search ref="search"></search>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner__section">
+            <div class="container">
+                <div class="banner__section-banner">
+                    <img src="images/banner.png" alt="banner">
+                    <h1 class="banner__section-banner-text">
+                        It’s Time To Explore The World
+                    </h1>
+                    <button class="banner__section-banner-button">Plan Your Trip</button>
+
+                    <div class="banner__section-banner-paginationandtours">
+                        <div class="banner__section-banner-pagination-wrapper">
+                            <div class="banner__section-banner-pagination-buttons">
+                                <button class="banner__section-banner-pagination-left">
+                                    < </button>
+                                        <button class="banner__section-banner-pagination-right">
+                                            >
+                                        </button>
+                            </div>
+                            <div class="banner__section-banner-pagination-line"></div>
+                            <div class="banner__section-banner-pagination-counter">
+                                <p>03</p>
+                            </div>
+                        </div>
+
+                        <div class="banner__section-banner-tours-wrapper">
+                            <div class="banner__section-banner-tours-destination">
+                                <p>Destinations</p>
+                                <select name="Destination">
+                                    <option>Arab Egypt</option>
+                                    <option>Moscow</option>
+                                    <option>Santorini</option>
+                                    <option>Tokio</option>
+                                    <option>Madrid</option>
+                                    <option>Paris</option>
+                                </select>
+                            </div>
+                            <div class="banner__section-banner-tours-date">
+                                <p>Check In</p>
+                                <input class="tourDate" type="date" value="2021-02-01">
+                            </div>
+                            <div class="banner__section-banner-tours-price">
+                                <p>Price Range</p>
+                                <select name="PriceRange">
+                                    <option>$500 - $10,0000</option>
+                                    <option>$10,000 - $20,0000</option>
+                                    <option>$20,000 - $30,0000</option>
+                                    <option>$30,000 - $40,0000</option>
+                                    <option>$40,000 - $50,0000</option>
+                                    <option>$50,000 - $60,0000</option>
+                                </select>
+                            </div>
+                            <button class="banner__section-banner-tours-button">
+                                Discover Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tour-information element-animation">
+            <div class="container">
+                <div class="tour-information__wrapper">
+                    <div class="tour-information__box1">
+                        <img src="images/destination.png" alt="destination">
+                        <h3>Choose Destination</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quis.</p>
+                    </div>
+                    <div class="tour-information__box2">
+                        <img src="images/explorer.png" alt="explorer">
+                        <h3>Explore The Place</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quis.</p>
+                    </div>
+                    <div class="tour-information__box3">
+                        <img src="images/journey.png" alt="journey">
+                        <h3>Start Your Journey</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quis.</p>
+                    </div>
+                    <div class="tour-information__box4">
+                        <img src="images/guitar.png" alt="guitar">
+                        <h3>Let’s Enjoy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="countries element-animation">
+            <div class="container">
+                <div class="countries__wrapper">
+                    <div class="countries-information">
+                        <h2>Top <span>Destinations</span> In The World</h2>
+                        <p>
+                            It is a long established fact that a reader will be the distracted by the readable content
+                            of a
+                            page when looking at its layout from it.
+                        </p>
+                        <button class="banner__section-banner-tours-button">
+                            Discover Now
+                        </button>
+                    </div>
+                    <div class="countries__box1">
+                        <img src="images/cuba.png" alt="cuba">
+                    </div>
+                    <div class="countries__box2">
+                        <img src="images/paris.png" alt="paris">
+                    </div>
+                    <div class="countries__box3">
+                        <img src="images/japan.png" alt="japan">
+                    </div>
+
+                </div>
+            </div>
+            <div class="countries__bg"></div>
+        </section>
+
+        <section class="offers element-animation">
+            <div class="container">
+                <div class="offers__wrapper">
+                    <div class="offers__circle"></div>
+                    <div class="offers__dots">
+                        <div class="offers__blueblur"></div>
+                        <img src="images/dots.png" alt="dots">
+                    </div>
+
+                    <div class="offers__image">
+                        <img src="images/lighthouse.png" alt="lighthouse">
+                    </div>
+
+                    <div class="offers__square">
+                        <div class="offers__pinkblur"></div>
+                        <img src="images/square.png" alt="square">
+                    </div>
+
+                    <div class="offers__information">
+                        <h2 class="offers__information-title">
+                            We Offering In Total 793 Tours Out The World
+                        </h2>
+                        <div class="offers__information-block1">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h2>Best Travel Guide Always For Your Services</h2>
+                                <p>Travel has helped us to understandsa the meaning of life and it has helped us become
+                                    better
+                                    people. Each time we travel, we see the world with new eyes. Travel has helped us to
+                                    understand the meaning of life</p>
+                            </div>
+                        </div>
+
+                        <div class="offers__information-block2">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h2>Best Travel Guide Always For Your Services</h2>
+                            </div>
+
+                        </div>
+                        <div class="offers__information-block3">
+                            <i class="fas fa-headset"></i>
+                            <div>
+                                <h2>Best Travel Guide Always For Your Services</h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="goods element-animation">
+            <div class="container">
+                <h1 class="goods__title">
+                    Choose Your Destination
+                </h1>
+                <products ref="products"></products>
+            </div>
+            <error ref="error"></error>
+        </section>
+
+        <section class="testimonials element-animation">
+            <div class="container">
+                <h1 class="testimonials__title">
+                    What Our Happy Customers Say About Us
+                </h1>
+                <div class="testimonials__wrapper">
+                    <div class="testimonials__blur"></div>
+                    <div class="testimonials__icons-left">
+                        <img class="testimonials__icons-left_1" src="images/icon1.png" alt="ico1">
+                        <img class="testimonials__icons-left_2" src="images/icon2.png" alt="ico2">
+                        <img class="testimonials__icons-left_3" src="images/icon3.png" alt="ico3">
+                        <img class="testimonials__icons-left_4" src="images/icon4.png" alt="ico4">
+                    </div>
+                    <div class="testimonials__center">
+                        <div class="testimonials__center-table">
+                            <div class="testimonials__center-header">
+                                <img class="testimonials__center-icon" src="images/icon8.png" alt="ico8">
+                                <div class="testimonials__center-text">
+                                    <h4 class="testimonials__center-title">
+                                        Md Shamim Hossain
+                                    </h4>
+                                    <p class="testimonials__center-proffesion">
+                                        UI/UX Designer
+                                    </p>
+                                </div>
+
+                            </div>
+                            <p class="testimonials__center-description">
+                                Jetrips Hotel is an excellent choice for anybody for considering hosting their events
+                                there.
+                                Top levela facilities and excellent staff make for a brilliantad environment within
+                                which to
+                                operate. The hotel is meticulous in its planning.
+                            </p>
+                            <div class="testimonials__center-dots">
+                                <img src="images/dotss.png" alt="dotss">
+                            </div>
+                            <div class="testimonials__center-circle">
+                                <img src="images/figure3.png" alt="figure3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-icons-right">
+                        <img class="testimonials__icons-right_1" src="images/icon5.png" alt="ico5">
+                        <img class="testimonials__icons-right_2" src="images/icon6.png" alt="ico6">
+                        <img class="testimonials__icons-right_3" src="images/icon7.png" alt="ico7">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="community element-animation">
+            <div class="container">
+                <div class="community__wrapper">
+                    <div class="community__poster">
+                        <div class="community__inner">
+                            <h1 class="community__title">
+                                Download Now Travel Community Apps
+                            </h1>
+                            <div class="community__buttons">
+                                <button class="community__google">
+                                    <img src="images/google.png" alt="google">
+                                </button>
+                                <button class="community__appstore">
+                                    <img src="images/apple.png" alt="apple">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="community element-animation">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <div class="contact__block1">
+                        <img class="contact__logo" src="images/logo2.png" alt="logo">
+                        <p class="contact__text">
+                            You can dream, create, design, and buildsa the most wonderful place.
+                        </p>
+                        <div class="contact__adresses">
+                            <div class="contact__adresses-tel">
+                                <img src="images/tel.png" alt="tel">
+                                <p>
+                                    +0123 456 987, +0123 456 987
+                                </p>
+                            </div>
+                            <div class="contact__adresses-mail">
+                                <img src="images/mail.png" alt="mail">
+                                <p>
+                                    yourmailaddress@gmail.com
+                                </p>
+                            </div>
+                            <div class="contact__adresses-site">
+                                <img src="images/site.png" alt="site">
+                                <p>www.yourwebsitename.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__block2">
+                        <h1 class="contact__block2-title">
+                            Quick Links
+                        </h1>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Latest Blog</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact__block3 contact__block2">
+                        <h1 class="contact__block2-title">
+                            Support
+                        </h1>
+                        <ul>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="#">Privacy & Policy</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Tour Guid</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact__block4">
+                        <h1 class="contact__block2-title">
+                            Newsletter
+                        </h1>
+                        <form class="subscribe__form" action="#">
+                            <input type="text" placeholder="domain@mail.com">
+                            <button type="submit">Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="copy">
+                    <p>Copyright @2020 Ravel. Designed By <span>Md Shamim Hossain</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</body>
+
+</html>

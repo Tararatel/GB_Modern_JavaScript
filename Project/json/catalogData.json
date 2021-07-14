@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1, 
+        "title": "Santorini, Oia Greece",
+        "price": 2000,
+        "poster": "images/road.png",
+        "flag": "images/gre.png"
+
+    },
+    {
+        "id": 2, 
+        "title": "Moscow, Russia",
+        "price": 5000,
+        "poster": "images/lighthouse2.png",
+        "flag": "images/rus.png"
+    },
+    {
+        "id": 3, 
+        "title": "Tokio, Japan",
+        "price": 10000,
+        "poster": "images/japan2.png",
+        "flag": "images/jap.png"
+    }
+  ]

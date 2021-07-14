@@ -1,0 +1,22 @@
+{
+  "amount": 7000,
+  "countGoods": 2,
+  "contents": [
+    {
+      "id": 1, 
+      "title": "Santorini, Oia Greece",
+      "price": 2000,
+      "poster": "images/road.png",
+      "quantity": 1,
+      "flag": "images/gre.png"
+  },
+  {
+      "id": 2, 
+      "title": "Moscow, Russia",
+      "price": 5000,
+      "poster": "images/lighthouse2.png",
+      "quantity": 1,
+      "flag": "images/rus.png"
+  }
+  ]
+}
