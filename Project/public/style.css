@@ -216,7 +216,7 @@ body {
     border: none;
 
     appearance: none;
-    background: url(/images/downArrow.png) no-repeat right;
+    background: url(./images/downArrow.png) no-repeat right;
     background-position-x: calc(100% - 2px);
 }
 
@@ -239,7 +239,7 @@ body {
 }
 
 .tourDate::-webkit-calendar-picker-indicator {
-    background: url(/images/calender.png) no-repeat right;
+    background: url(./images/calender.png) no-repeat right;
 }
 
 .banner__section-banner-tours-price label {
@@ -260,7 +260,7 @@ body {
     border: none;
 
     appearance: none;
-    background: url(/images/dollar.png) no-repeat right;
+    background: url(./images/dollar.png) no-repeat right;
     background-position-x: calc(100% - 2px);
 }
 
@@ -792,7 +792,7 @@ h3 {
 }
 
 .community__poster {
-    background-image: url('/images/community.png');
+    background-image: url('./images/community.png');
     width: 1680px;
     height: 550px;
 }

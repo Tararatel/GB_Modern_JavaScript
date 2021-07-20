@@ -5,6 +5,7 @@ import './ProducComp';
 import './SearchComp';
 import './ErrorComp';
 import './observer';
+import '../style.css';
 
 const app = new Vue({
   el: '#app',

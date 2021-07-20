@@ -9,7 +9,7 @@ Vue.component('products', {
     },
     
     mounted(){
-        this.$parent.getJson(`/json/catalogData.json`)
+        this.$parent.getJson(`json/catalogData.json`)
             .then(data => {
                 for(let el of data){
                     this.products.push(el);
